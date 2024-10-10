@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - Cafetería</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: -webkit-linear-gradient(180deg, #2d1f01, #382703, #3f4040);
+            background: linear-gradient(180deg, #2d1f01, #4b370c, #3f4040);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 30px;
+            margin: 2% auto;
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+        header img{
+            margin-right: 37px;
+        }
+
+        .container {
+            margin-top: 100px;
+            max-width: 350px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            padding: 40px;
+            text-align: center;
+            border: 1px solid rgb(61, 124, 81);
+            box-shadow: 0 0 50px rgb(61, 124, 81);
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+            color: #0c0606;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #048624a8;
+            color: #000000;
+            border: none;
+            padding: 13px;
+            width: 100%;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: rgb(71, 133, 91);
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <div class="container">
+
+        <h1>Iniciar Sesión</h1>
+        <form action="#" method="post">
+            <input type="text" name="usuario" placeholder="Usuario" required>
+            <input type="password" name="contraseña" placeholder="Contraseña" required>
+            <input type="submit" value="Iniciar Sesión">
+        </form>
+    </div>
+
+</body>
+
+</html>
